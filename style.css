@@ -1,0 +1,76 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the video container */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Style the video */
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Add an overlay for text readability */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* You can adjust the opacity here */
+}
+
+/* Style the content within the video container */
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: #fff; /* Text color for readability */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* Center the bride and groom image */
+.center-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.bride-button, .groom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.bride-button:hover, .groom-button:hover {
+    background-color: #ff4444;
+}
+
+/* BRIDE HTML */
+/* Center the content on the bride.html page */
